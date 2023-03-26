@@ -1,8 +1,8 @@
 ## Code for Printing "Hello" using I2C Protocol in CubeIDE
 
 ```
-#Include "main.h"
-#Include<string.h>                 // To add string libraries
+#include "main.h"
+#include<string.h>                 // To add string libraries
 int main(void)
 {
 uint8_t buf[12];                   // Created a buffer of size 12 
