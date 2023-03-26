@@ -4,7 +4,7 @@
 #include "main.h"
 #include<string.h>                        // To add string libraries
 
-// Create Constants
+// Create Constants for peripheral device(pphl) to be connected with master microcontroller
 static const uint8_t pphl_ADDR = 0X48 <<1; // 7 bit addr is shifted to left by 1 bit to leave a space for R/W Bit as 8-Bit addr is used
 static const uint8_t pphl_REG_ADDR = 0x00;
 int main(void)
