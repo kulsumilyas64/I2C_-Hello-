@@ -1,4 +1,4 @@
-## Code for Printing "Hello" using I2C Protocol in CubeIDE
+## Basic Code of I2C Protocol in CubeIDE
 
 ```
 #include "main.h"
